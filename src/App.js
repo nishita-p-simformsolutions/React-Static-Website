@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Header from './components/header';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -11,7 +12,7 @@ function App() {
   return (
     <div>
       <Router>
-
+        <Header />
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/about' component={About} />

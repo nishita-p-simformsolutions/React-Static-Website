@@ -4,10 +4,12 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Poppins', sans-serif;
+	background-color: #136af8;
 }
 
 header{
 	background-color: #136af8;
+	height: 50px;
 }
 
 section{
@@ -42,6 +44,7 @@ ul li a:hover{
 
 .main{
 	margin: 20px 50px 0 50px;
+	background-color: #136af8;
 }
 
 .title{
@@ -103,9 +106,12 @@ ul li a:hover{
 }
 
 .container{
-	background-color: white;
-	height: 180px;
+	height: 200px;
   	width: 100%;
+}
+
+.pagetitle{
+	padding-top: 80px;
 }
 
 .pagetitle span{
@@ -115,7 +121,8 @@ ul li a:hover{
 	display: block;
 	font-weight: normal;
 	border: 15px white;
- 	padding: 50px;
+	padding: 50px;
+	background-color: white;
 }
 
 .maincontainer{
@@ -171,12 +178,6 @@ ul li a:hover{
 	font-weight:normal;
 } 
 
-.acontainer{
-	background-color: white;
-	height: 200px;
-  	width: 100%;
-}
-
 .about span{
 	color: black;
 	font-size: 20px;
@@ -187,16 +188,21 @@ ul li a:hover{
  	padding-left: 5px;
 }
 
-about.apagetitle{
+.about ul{
 	color: black;
 	display: block;
-	padding-right: 50px;
- 	padding-left: 50px;
- 	font-size: 100px;
+	background-color: white;
+	height: 180px;
 }
 
 .us{
 	color: #136af8;
+}
+
+.rbutton{
+	position: absolute;
+	top: 80%;
+	left: 5%;
 }
 
 .sportcontainer{
@@ -227,33 +233,33 @@ about.apagetitle{
 }
 
 .tcontainer{
-	background-color: white;
-    height: 200px;
     width: 100%;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 120px;
 }
 
-.testmonial span{
+.testmonial{
 	color: black;
 	font-size: 20px;
 	line-height: 31px;
 	display: block;
 	font-weight: normal;
- 	padding-right: 50px;
- 	padding-left: 5px;
-}
-
-.colr{
 	background-color: white;
-	padding-bottom: 20px;
+	padding: 20px 50px 0px 50px;
+	height: 180px;
 }
 
 .testcontainer{
-  	margin: 10px 50px 90px 50px;
-	background: #136af8;
+	border-right: 50px solid white;
+	border-left: 50px solid white;
+	border-bottom: 50px solid white;
 	overflow: auto;
 	text-align: center;
+	height: 100%;
+}
+
+.johnimage{
+	margin-top: 10px;
 }
 
 .titem{
@@ -363,11 +369,12 @@ about.apagetitle{
 	background: #136af8;
 	overflow: auto;
 	float: center;
-	padding-left: 80px;
-	padding-right: 80px;
-	padding-top: 50px;
+	padding-top: 80px;
 	height: auto;
 	position: relative;
+	width: 80%;
+	margin-left: 100px;
+	padding-left: 50px;
 }
 
 .soc{
@@ -440,4 +447,8 @@ about.apagetitle{
 	color: white;
 	background-color: #136af8;
 	float: right;
+}
+
+.carousel{
+	background-color: #136af8;
 }
