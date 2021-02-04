@@ -1,12 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-//import Carousel from 'react-bootstrap/Carousel';
+import CarouselComponent from '../components/homecarousel'
 
 class Home extends React.Component{
     render(){
         return(
             <div>         
-                
+                <CarouselComponent/>
                 <section>
                         <div className="title">
                             <h1>Welcome to</h1>
@@ -26,13 +26,8 @@ class Home extends React.Component{
                             <Link to="about" class="btn">About</Link>
                         </div>
                         
-                        <img
-                            className="center"
-                            src="assests/img/boksing-gloves.png"
-                            alt="second"
-                        />
-                        
                 </section>
+
                 
             </div>
         )
