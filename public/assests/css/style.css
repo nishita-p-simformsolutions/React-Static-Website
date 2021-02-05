@@ -224,12 +224,16 @@ ul li a:hover{
 .playimg{
 	padding: 80px 0px;
 	float: right;
+	display: block;
+	height: 300px;
+	width: 500px;
+	margin: 0px 50px;
 }
 
 .playimg img{
 	border: 20px solid white;
 	width: 70%;
-	height: 300px;
+	
 }
 
 .tcontainer{
@@ -457,11 +461,10 @@ ul li a:hover{
 
 .carousel .slide img{
 	height: 500px;
-	width: 100px;
+	width: auto;
 	background-color: #136af8;
 }
 
 .johnimage{
 	margin-top: 10px;
-	
 }
