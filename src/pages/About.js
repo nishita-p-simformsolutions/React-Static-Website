@@ -1,4 +1,5 @@
 import React from 'react';
+import CarouselAboutComponent from '../components/aboutcarousel'
 
 class About extends React.Component{
     render(){
@@ -20,10 +21,8 @@ class About extends React.Component{
                         </ul>
                     </div>
 
-                    <div className="playimg">
-                        <img src="assests/img/child-image.png" alt="child"/>
-                    </div>
-
+                    <CarouselAboutComponent/>
+                    
                     <div className="rbutton">
                         <a href="" class="btn">Read More</a>
                     </div>

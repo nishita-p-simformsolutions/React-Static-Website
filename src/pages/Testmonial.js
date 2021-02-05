@@ -1,4 +1,5 @@
 import React from 'react';
+import CarouselTestComponent from '../components/testcarousel';
 
 class Testmonial extends React.Component{
     render(){
@@ -13,10 +14,7 @@ class Testmonial extends React.Component{
                     </div>
 
                     <div className="testcontainer" >
-                        <div className="johnimage">
-                            <img src="assests/img/john-image.png" alt="john"/>
-                        </div>
-
+                        <CarouselTestComponent/>
                         <div className="titem">
                             <ul>
                                 <h2>JOHN DUE</h2>

@@ -222,14 +222,16 @@ ul li a:hover{
 }
 
 .playimg{
-	padding: 80px 0px;
+	padding: 20px 0px;
 	float: right;
+	display: block;
+	height: 300px;
+	width: 500px;
+	margin: 0px 50px;
 }
 
 .playimg img{
-	border: 20px solid white;
 	width: 70%;
-	height: 300px;
 }
 
 .tcontainer{
@@ -249,6 +251,10 @@ ul li a:hover{
 	height: 180px;
 }
 
+.content{
+	background-color: #136af8;
+}
+
 .testcontainer{
 	border-right: 50px solid white;
 	border-left: 50px solid white;
@@ -256,11 +262,9 @@ ul li a:hover{
 	overflow: auto;
 	text-align: center;
 	height: 100%;
+	background-color: #136af8;
 }
 
-.johnimage{
-	margin-top: 10px;
-}
 
 .titem{
 	color: white;
@@ -451,4 +455,22 @@ ul li a:hover{
 
 .carousel{
 	background-color: #136af8;
+}
+
+.carousel .slide img{
+	height: 500px;
+	width: auto;
+	background-color: #136af8;
+}
+
+.johnimage{
+	display: block;
+	height: 600px;
+	width: 400px;
+	margin: 10px;
+	padding-left: 35%;
+}
+
+.johnimage img{
+	width: 70%;
 }
