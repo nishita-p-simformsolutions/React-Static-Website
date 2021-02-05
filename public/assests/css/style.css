@@ -222,7 +222,7 @@ ul li a:hover{
 }
 
 .playimg{
-	padding: 80px 0px;
+	padding: 20px 0px;
 	float: right;
 	display: block;
 	height: 300px;
@@ -231,9 +231,7 @@ ul li a:hover{
 }
 
 .playimg img{
-	border: 20px solid white;
 	width: 70%;
-	
 }
 
 .tcontainer{
@@ -466,5 +464,13 @@ ul li a:hover{
 }
 
 .johnimage{
-	margin-top: 10px;
+	display: block;
+	height: 600px;
+	width: 400px;
+	margin: 10px;
+	padding-left: 35%;
+}
+
+.johnimage img{
+	width: 70%;
 }
